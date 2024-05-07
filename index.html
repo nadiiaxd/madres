@@ -1,0 +1,30 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    
+</head>
+<body>
+    <div class="music-player">
+        <div class="song-info">
+            <h2 id="song-title">Canción</h2>
+            <p id="artist">Artista</p>
+        </div>
+        <audio controls id="audio-player">
+            <source src="cancion.mp3" type="audio/mpeg">
+            
+        </audio>
+    </div>
+
+    <ul class="playlist">
+        <li class="playlist-item" onclick="changeSong('cancion1.mp3', 'Canción 1', 'Artista 1')">Canción 1 - Artista 1</li>
+        <li class="playlist-item" onclick="changeSong('cancion2.mp3', 'Canción 2', 'Artista 2')">Canción 2 - Artista 2</li>
+        <li class="playlist-item" onclick="changeSong('cancion3.mp3', 'Canción 3', 'Artista 3')">Canción 3 - Artista 3</li>
+    </ul>
+
+
+</body>
+</html>

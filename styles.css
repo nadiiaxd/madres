@@ -1,0 +1,25 @@
+
+        /* Estilos para el reproductor de música */
+        .music-player {
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .song-info {
+            margin-bottom: 10px;
+        }
+        .playlist {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .playlist-item {
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .playlist-item:hover {
+            color: blue;
+        }
+    
